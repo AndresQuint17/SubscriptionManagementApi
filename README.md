@@ -72,6 +72,12 @@ cd subscription-management-api
 The application will start on:
 📍 http://localhost:8080
 
+## Swagger
+
+Access to the API documentation via UI:
+
+http://localhost:8080/swagger-ui/index.html
+
 ## 🗃️ Default Credentials
 If you're using Spring Security's default setup:
 
