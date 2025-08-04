@@ -1,4 +1,4 @@
-package com.interview.pragma.subscriptionManagementApi.auth.infrastructure.persistence.controller;
+package com.interview.pragma.subscriptionManagementApi.auth.infrastructure.controller;
 
 import com.interview.pragma.subscriptionManagementApi.auth.application.dto.LoginDto;
 import com.interview.pragma.subscriptionManagementApi.auth.application.useCases.Login;

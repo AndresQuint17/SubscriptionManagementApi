@@ -3,11 +3,13 @@ package com.interview.pragma.subscriptionManagementApi.user.application.dto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+@AllArgsConstructor
 @Schema(description = "Request to register a new user in the system.")
 public class UserRequestDto {
 
